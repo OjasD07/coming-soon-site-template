@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/work_in_progress.html",
+      "destination": "/work-in-progress",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/work-in-progress",
+      "destination": "/work_in_progress.html"
+    }
+  ]
+}
