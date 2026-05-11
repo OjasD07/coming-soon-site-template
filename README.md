@@ -63,4 +63,4 @@ To personalize this template for your own project, make sure to edit the followi
 
 ## Author
 Ojas Deshpande
-contact.ojasdeshpande@gmail.com
+contact@ojasdeshpande.in
