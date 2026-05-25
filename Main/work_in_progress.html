@@ -189,7 +189,7 @@
       width: min(84vw, 190px);
       padding: 0.55rem 0.62rem;
       border: 1px solid rgba(255, 255, 255, 0.14);
-      border-radius: 14px;
+      border-radius: 10px;
       background: rgba(6, 14, 11, 0.78);
       backdrop-filter: blur(10px);
       box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
@@ -197,6 +197,10 @@
       font-size: 0.66rem;
       line-height: 1.22;
       text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.4rem;
     }
 
     .courtesy__title {
@@ -232,6 +236,16 @@
       color: #ffffff;
       text-decoration: underline;
       text-underline-offset: 2px;
+    }
+
+    .courtesy__logo {
+      width: 45px;
+      height: 45px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: rgba(255,255,255,0.08);
+      padding: 0.0rem;
+      display: block;
     }
 
     @keyframes float-1 {
@@ -306,13 +320,17 @@
   </main>
 
   <aside class="courtesy" aria-label="Template courtesy">
-    <p class="courtesy__title">Template Courtesy:</p>
-    <p class="courtesy__name">Ojas Deshpande</p>
-    <div class="courtesy__links">
-      <a href="https://www.ojasdeshpande.in/" target="_blank" rel="noopener noreferrer">Portfolio</a>
-      <a href="mailto:contact@ojasdeshpande.in">Mail</a>
-      <a href="https://github.ojasdeshpande.in/" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://linkedin.ojasdeshpande.in/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <div>
+      <p class="courtesy__title">Template Courtesy:</p>
+      <p class="courtesy__name">Ojas Deshpande</p>
+      <div class="courtesy__links">
+        <a href="https://www.ojasdeshpande.in/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a href="mailto:contact@ojasdeshpande.in">Mail</a>
+        <a href="https://github.ojasdeshpande.in/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.ojasdeshpande.in/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+    <img class="courtesy__logo" src="https://raw.githubusercontent.com/OjasD07/OjasD07/main/Logo.svg" alt="Ojas Deshpande logo" />
   </aside>
 
   <script>
