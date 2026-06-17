@@ -1,11 +1,13 @@
-## Coming Soon Site Template
+<a href="https://www.ojasdeshpande.in" target="_blank"><img src="https://raw.githubusercontent.com/OjasD07/OjasD07/main/Logo.svg" alt="Logo" style="float: right; width: 88px; height: 88px; background: #0ea5e9; border-radius: 10px; padding: 8px; margin: 0 0 8px 8px;" /></a>
+
+# Coming Soon Site Template
 
 A modern, responsive, and easily customizable "Coming Soon" landing page template for your next big project.
 
-## 🌐 Live Preview
+# 🌐 Live Preview
 Check out the live demo before you start:(https://www.coming-soon-template.ojasdeshpande.in/)
 
-## 📁 Project Structure
+# 📁 Project Structure
 The core application code and assets are entirely located inside the `Main` folder.
 
 ```text
@@ -15,15 +17,15 @@ coming-soon-site-template/
 └── LICENSE
 ```
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine or deployed on your hosting platform.
 
-### Prerequisites
+## Prerequisites
 - A modern code editor (like VS Code).
 - A local web server (optional, but recommended for development/testing).
 
-### Installation
+## Installation
 
 **Option 1: Clone via Git**
 1. **Clone the repository:**
@@ -41,26 +43,25 @@ Follow these instructions to get a copy of the project up and running on your lo
 3. Extract the downloaded ZIP file to your computer.
 4. Open the extracted folder and navigate into the `Main` directory.
 
-### Launching the Project
+## Launching the Project
 - Open the entry file (e.g., `index.html` inside the `Main` folder) directly in your web browser.
 - Alternatively, if you are using a local server extension (like Live Server in VS Code) or Node.js, run your start commands from within the `Main` folder.
 
-## 🛠️ Customization
+# 🛠️ Customization
 To personalize this template for your own project, make sure to edit the following key areas inside the `Main` directory:
 
-### 1. HTML Content (e.g., `index.html` or `work_in_progress.html`)
+## 1. HTML Content (e.g., `index.html` or `work_in_progress.html`)
 - **Page Title & Metadata:** Update the `<title>` and `<meta name="description">` tags in the `<head>` for proper SEO.
 - **Headings & Copy:** Change the main "Coming Soon" text, subheadings, and project description to fit your brand.
 - **Contact Info & Social Links:** Update the `href` attributes for your social media icons and any `mailto:` links or contact forms.
 
-### 2. Styling (CSS)
+## 2. Styling (CSS)
 - **Colors & Fonts:** Modify the CSS styles to match your brand's color palette and typography choices.
 - **Layout Adjustments:** Tweak spacing, margins, and flexbox/grid properties if you add or remove elements.
 
-### 3. Assets (Images/Icons)
+## 3. Assets (Images/Icons)
 - **Logo & Favicon:** Replace placeholder logos and the site favicon (`<link rel="icon">`) with your own custom graphics.
 - **Backgrounds:** Change any background images, gradients, or patterns to suit your project's aesthetic.
 
-## Author
-Ojas Deshpande
-contact@ojasdeshpande.in
+# Author
+Ojas Deshpande [contact@ojasdeshpande.in]
