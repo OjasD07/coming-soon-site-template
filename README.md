@@ -4,10 +4,10 @@
 
 A modern, responsive, and easily customizable "Coming Soon" landing page template for your next big project.
 
-# 🌐 Live Preview
+# Live Preview
 Check out the live demo before you start:(https://www.coming-soon-template.ojasdeshpande.in/)
 
-# 📁 Project Structure
+# Project Structure
 The core application code and assets are entirely located inside the `Main` folder.
 
 ```text
@@ -17,7 +17,7 @@ coming-soon-site-template/
 └── LICENSE
 ```
 
-# 🚀 Getting Started
+# Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine or deployed on your hosting platform.
 
@@ -47,7 +47,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - Open the entry file (e.g., `index.html` inside the `Main` folder) directly in your web browser.
 - Alternatively, if you are using a local server extension (like Live Server in VS Code) or Node.js, run your start commands from within the `Main` folder.
 
-# 🛠️ Customization
+# Customization
 To personalize this template for your own project, make sure to edit the following key areas inside the `Main` directory:
 
 ## 1. HTML Content (e.g., `index.html` or `work_in_progress.html`)
